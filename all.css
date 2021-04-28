@@ -9,8 +9,11 @@ body, html {
 /* 그라데이션 */
 .css-selector {
     background: linear-gradient(267deg, #7fe5e6, #d291f0);
-    background-size: 400% 400%;
     min-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-animation: bg 10s ease infinite;
     -moz-animation: bg 10s ease infinite;
     -o-animation: bg 10s ease infinite;
