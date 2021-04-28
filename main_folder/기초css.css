@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Song+Myung&family=Stylish&display=swap');
+
+body, html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* 그라데이션 */
+.css-selector {
+    background: linear-gradient0(267deg, #7fe5e6, #d291f0);
+    background-size: 400% 400%;
+    min-height:100%;
+    -webkit-animation: bg 10s ease infinite;
+    -moz-animation: bg 10s ease infinite;
+    -o-animation: bg 10s ease infinite;
+    animation: bg 10s ease infinite;
+}
+/* 그라데이션 호환성 */
+@-webkit-keyframes bg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes bg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes bg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+/* white font */
+.font-class {
+font-family: Stylish;
+font-size: 40px;
+margin: 10px 10px;
+}
+/* bold font */
+.su {
+font-family: Stylish;
+color : #232948;
+font-weight : bold;
+font-size : 20px;
+} 
+/* 전체 정렬 */
+* {text-align:center}
+/* 버튼 */
+.game {
+font-family: Stylish;
+font-size:15px; 
+padding:5px 5px
+}
+
+/*투명 버튼*/
+.ghost-button {
+    font-family: Stylish;
+    font-size : 20px;
+    align-items: center;
+    display: inline-block;
+    margin: 20px 5px;
+    border: 3px solid #232948;
+    color: #232948;                
+    text-decoration : none;
+    box-sizing: content-box;
+    width : 100px;
+    height : 30px ;
+    text-align: center;
+    line-height: 30px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}
+.ghost-button:hover {
+    background-color:#232948;
+    font-size : 30px;
+    color: white;
+    width : 120px;
+    height : 50px ;
+    line-height: 50px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+    }
+/*트랜지션 예제 easeOutCubic*/
+.block {
+	transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/*배경 이미지*/
+.bgimg {
+    border: 0;
+    padding: 0; 
+    background-image: url('https://1.bp.blogspot.com/-0b8WwdOsClQ/Xi1-MPCH5vI/AAAAAAAAGwY/-7FSQnwwCiYn7XVawXLeSDfFHBUf4tJfQCLcBGAsYHQ/s1600/PREV_Rhodes.png');
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+}
