@@ -8,7 +8,7 @@ body, html {
 }
 /* 그라데이션 */
 .css-selector {
-    background: linear-gradient0(267deg, #7fe5e6, #d291f0);
+    background: linear-gradient(267deg, #7fe5e6, #d291f0);
     background-size: 400% 400%;
     min-height:100%;
     -webkit-animation: bg 10s ease infinite;
