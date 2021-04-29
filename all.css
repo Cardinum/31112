@@ -89,10 +89,6 @@ padding:5px 5px;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
     }
-/*트랜지션 예제 easeOutCubic*/
-.block {
-	transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
-}
 
 /*배경 이미지*/
 .bgimg {
@@ -128,8 +124,16 @@ padding:5px 5px;
 .nav-bar-li-a {
     display: block;
     background-color: #232948;
+    font-family: Stylish;
     color: azure;
     padding: 5px;
     text-align: center;
+}
 
+.nav-bar-li-a :hover {
+    color: #232948;
+    background-color: azure;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
