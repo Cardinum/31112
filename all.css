@@ -114,3 +114,22 @@ padding:5px 5px;
     background-position: center;
     background-size: cover;
 }
+
+.nav-bar-ul {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar-li {
+    float: right;
+}
+
+.nav-bar-li-a {
+    display: block;
+    background-color: #232948;
+    color: azure;
+    padding: 5px;
+    text-align: center;
+
+}
