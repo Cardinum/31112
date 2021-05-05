@@ -120,10 +120,11 @@ padding:5px 5px;
 
 .nav-bar-li {
     float: right;
+    display: block;
 }
 
 .nav-bar-li-a {
-    display: block;
+    
     background-color: #232948;
     font-family: Stylish;
     color: azure;
