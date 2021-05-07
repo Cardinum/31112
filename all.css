@@ -118,12 +118,11 @@ padding:5px 5px;
     padding: 0px;
 }
 
-.nav-bar-li {
-    float: right;
-    display: block;
+li {
+    float: left;
 }
 
-.nav-bar-li-a {
+li a{
     
     background-color: #232948;
     font-family: Stylish;
@@ -133,7 +132,7 @@ padding:5px 5px;
     text-align: center;
 }
 
-.nav-bar-li-a :hover {
+li a:hover {
     color: #232948;
     background-color: azure;
     transition-property: all;
