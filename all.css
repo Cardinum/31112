@@ -45,18 +45,20 @@ margin: 10px 10px;
 }
 /* bold font */
 .su {
-font-family: Stylish;
-color : #232948;
-font-weight : bold;
-font-size : 20px;
+    font-family: Stylish;
+    color : #232948;
+    font-weight : bold;
+    font-size : 20px;
 } 
 /* 전체 정렬 */
-* {text-align:center}
+* {
+    text-align:center;
+}
 /* 버튼 */
 .game {
-font-family: Stylish;
-font-size:15px; 
-padding:5px 5px;
+    font-family: Stylish;
+    font-size:15px; 
+    padding:5px 5px;
 }
 
 /*투명 버튼*/
@@ -110,10 +112,11 @@ padding:5px 5px;
     background-position: center;
     background-size: cover;
 }
-
+/*네비게이션 바 시리즈*/
 .nav-bar-ul {
     list-style-type: none;
-    font-size: 20px;    
+    font-size: 20px;
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
 }
@@ -123,7 +126,6 @@ padding:5px 5px;
 }
 
 .nav-bar-li-a{
-    
     background-color: #232948;
     font-family: Stylish;
     color: azure;
