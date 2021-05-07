@@ -118,11 +118,11 @@ padding:5px 5px;
     padding: 0px;
 }
 
-li {
+.nav-bar-li {
     float: left;
 }
 
-li a{
+.nav-bar-li-a{
     
     background-color: #232948;
     font-family: Stylish;
@@ -132,7 +132,7 @@ li a{
     text-align: center;
 }
 
-li a:hover {
+.nav-bar-li-a:hover {
     color: #232948;
     background-color: azure;
     transition-property: all;
