@@ -39,10 +39,17 @@ body, html {
 
 /* white font */
 .font-class {
-font-family: Stylish;
-font-size: 40px;
-margin: 10px 10px;
+    font-family: Stylish;
+    font-size: 20px;
+    margin: 10px 10px;
 }
+
+.head-class {
+    font-family: Stylish;
+    font-size: 40px;
+    margin: 10px 10px;
+}
+
 /* 전체 정렬 */
 * {
     text-align:center;
@@ -100,7 +107,7 @@ margin: 10px 10px;
     background-size: cover;
 }
 /*네비게이션 바 시리즈*/
-.nav-bar-ul {
+/*.nav-bar-ul {
     list-style-type: none;
     font-size: 20px;
     overflow: hidden;
@@ -127,4 +134,4 @@ margin: 10px 10px;
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
-}
+}*/
