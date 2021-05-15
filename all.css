@@ -43,22 +43,9 @@ font-family: Stylish;
 font-size: 40px;
 margin: 10px 10px;
 }
-/* bold font */
-.su {
-    font-family: Stylish;
-    color : #232948;
-    font-weight : bold;
-    font-size : 20px;
-} 
 /* 전체 정렬 */
 * {
     text-align:center;
-}
-/* 버튼 */
-.game {
-    font-family: Stylish;
-    font-size:15px; 
-    padding:5px 5px;
 }
 
 /*투명 버튼*/
