@@ -45,9 +45,15 @@ body, html {
 }
 
 .head-class {
+    column-count: 3;
+    text-align: justify;
     font-family: Stylish;
     font-size: 40px;
     margin: 10px 10px;
+}
+
+.head-class h1 {
+    break-before: column;
 }
 
 /* 전체 정렬 */
