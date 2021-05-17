@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Song+Myung&family=Stylish&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 body, html { 
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ body, html {
 
 /* white font */
 .font-class {
-    font-family: Stylish;
+    font-family: Black+Han+Sans;
     font-size: 20px;
     margin: 10px 10px;
 }
@@ -47,7 +47,7 @@ body, html {
 .head-class {
     column-count: 3;
     text-align: justify;
-    font-family: Stylish;
+    font-family: Black+Han+Sans;
     font-size: 40px;
     margin: 10px 10px;
 }
@@ -63,7 +63,7 @@ body, html {
 
 /*투명 버튼*/
 .ghost-button {
-    font-family: Stylish;
+    font-family: Black+Han+Sans;
     font-size : 20px;
     align-items: center;
     display: inline-block;
