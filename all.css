@@ -46,20 +46,19 @@ body, html {
 }
 
 .column {
-    column-count: 3;
-    content-align: center;
+    float: left;
+    width: 33.3333%;
+    padding: 20px;
+    text-align: center;
 
 .head-class {
-    column-count: 3;
     text-align: center ;
     font-family: 'Black Han Sans', sans-serif;
     font-size: 40px;
     margin: 10px 10px;
 }
-
-.column div {
-    break-before: column;
-}
+    
+    
 
 /* 전체 정렬 */
 * {
