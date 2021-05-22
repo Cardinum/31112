@@ -72,12 +72,12 @@ body, html {
 }
 .d-day_container .num{
     font-family:'Black Han Sans', sans-serif;
-    font-size: 300px;
-    margin:50px 100px;
+    font-size: 100px;
+    margin:0px;
 }
 .d-day_container span{
     font-family: 'Song Myung';
-    font-size: 150px;
+    font-size: 50px;
 }
 /* 전체 정렬 */
 
