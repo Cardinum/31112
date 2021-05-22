@@ -10,9 +10,9 @@ function countdown() {
 
     const totSec = (SATDate - currentDate) / 1000;
     const days = Math.floor(totSec / 3600 / 24);
-    const hours = Math.floor(totSec / 3600 / 24);
-    const min = Math.floor(totSec / 3600 / 24);
-    const sec = Math.floor(totSec / 3600 / 24);
+    const hours = Math.floor(totSec / 3600) % 24;
+    const min = Math.floor(totSec / 60) % 60;
+    const sec = Math.floor(totSec) % 60;
 
     document.getElementById('days').innerText = formatTime(days);
     document.getElementById('hours').innerText = formatTime(hours);
