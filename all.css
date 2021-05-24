@@ -1,7 +1,9 @@
 
+/* 적용할때, + 말고 스페이스로 구분*/
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Song+Myung&family=Stylish&display=swap');
-/* black han sans 적용할때, + 말고 스페이스로 구분*/
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body, html { 
     margin: 0;
     padding: 0;
