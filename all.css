@@ -65,6 +65,14 @@ body, html {
     font-size: 60px;
     margin: 10px 10px;
 }
+
+.not-done-text {
+    font-family:'Gothic A1', sans-serif;
+    font-weight:900;
+    font-size:150px
+    padding:100px 100px;
+}
+    
     
 .d-day_container {
     display: flex;
