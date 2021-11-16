@@ -14,7 +14,6 @@ function countdown() {
     const min = Math.floor(totSec / 60) % 60;
     const sec = Math.floor(totSec) % 60;
 
-    document.getElementById('days').innerText = formatTime(days);
     document.getElementById('hours').innerText = formatTime(hours);
     document.getElementById('min').innerText = formatTime(min);
     document.getElementById('sec').innerText = formatTime(sec);
