@@ -1,22 +1,22 @@
-const SAT = '18 nov 2021 16:32:00 GMT+0900'
+const SAT2 = '18 nov 2021 16:32:00 GMT+0900'
 
-function formatTime(time) {
+function formatTime2(time) {
     return time < 10 ? '0' + time : time;
 }
 
-function countdown() {
-    const SATDate = new Date(SAT);
-    const currentDate = new Date();
+function countdown2() {
+    const SATDate2 = new Date(SAT2);
+    const currentDate2 = new Date();
 
-    const totSec = (SATDate - currentDate) / 1000;
-    const days = Math.floor(totSec / 3600 / 24);
-    const hours = (days * 24) + Math.floor(totSec / 3600) % 24;
-    const min = Math.floor(totSec / 60) % 60;
-    const sec = Math.floor(totSec) % 60;
+    const totSec2 = (SATDate2 - currentDate2) / 1000;
+    const days2 = Math.floor(totSec2 / 3600 / 24);
+    const hours2 = (days2 * 24) + Math.floor(totSec2 / 3600) % 24;
+    const min2 = Math.floor(totSec2 / 60) % 60;
+    const sec2 = Math.floor(totSec2) % 60;
 
-    document.getElementById('hours2').innerText = formatTime(hours);
-    document.getElementById('min2').innerText = formatTime(min);
-    document.getElementById('sec2').innerText = formatTime(sec);
+    document.getElementById('hours2').innerText = formatTime2(hours2);
+    document.getElementById('min2').innerText = formatTime2(min2);
+    document.getElementById('sec2').innerText = formatTime2(sec2);
 }
 
-setInterval(countdown,1000)
+setInterval(countdown2,1000)
