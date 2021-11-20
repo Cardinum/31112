@@ -1,4 +1,4 @@
-const SAT = '18 nov 2021 08:40:00 GMT+0900'
+const SAT = '18 nov 2022 08:40:00 GMT+0900'
 
 function formatTime(time) {
     return time < 10 ? '0' + time : time;
