@@ -11,11 +11,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 var FlipDown = function () {
   //function으로 실행 가능하게
   function FlipDown(uts) {
+    //argumnts = 받은 상수를 반환
     var el = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "flipdown";
     var opt = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
 
     _classCallCheck(this, FlipDown);
-
+    //숫자 아니면 예외처리
     if (typeof uts !== "number") {
       throw new Error("FlipDown: Constructor expected unix timestamp, got ".concat(_typeof(uts), " instead."));
     }
