@@ -9,7 +9,7 @@ function formatTime(time) {
 function countdown() {
     const StartDate = new Date(Start);
     const currentDate = new Date();
-    const SAT = new Date('18 nov 2022 08:40:00 GMT+0900');
+    const SAT = new Date('17 nov 2022 08:40:00 GMT+0900');
     if (currentDate >= SAT) {
         const totSec = (SAT - StartDate) / 1000;
         const days = Math.floor(totSec / 3600 / 24);
