@@ -1,5 +1,5 @@
 //import { Flip } from 'number-flip'
-const SAT = '17 nov 2022 08:40:00 GMT+0900'
+const SAT = '16 nov 2023 08:40:00 GMT+0900'
 
 function formatTime(time) {
     return time < 10 ? '0' + time : time;

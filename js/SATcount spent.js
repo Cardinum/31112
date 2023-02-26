@@ -1,4 +1,4 @@
-const Start = '13 dec 2021 07:40:00 GMT+0900'
+const Start = '20 feb 2022 07:40:00 GMT+0900'
 //import { Flip } from 'number-flip'
 function formatTime(time) {
     return time < 10 ? '0' + time : time;
